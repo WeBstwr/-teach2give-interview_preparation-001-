@@ -1,0 +1,22 @@
+# __Introduction to System Design__  
+## Understanding System Design  
+System design is a step-by-step process of defining a particular software’s architecture, components, modules, etc. It is a base concept in software engineering and vital in building scalable and reliable software.  
+This system design primer helps you understand the essence of system design and various concepts from basics to advanced.  
+## What is the Need for the System Design?  
+System design is used to prepare the architecture of the software or application.  
+Suppose you are a software developer and clients come to you that they need to build a software application. Firs, ask them about their requirements, functional and non-functional (scalability, high availability, consistency, etc.)  
+After knowing the requirements, you need to prepare the architecture for the application according to requirements. Decide whether you want to use SQL or NoSQL databases based on the data you need to store. Then decide how to make the application scalable in case the traffic increases.  
+## Exploring Essential Design Methods in System Design  
+Developers are required to choose a particular method based on the project’s requirements.  
+### 1.	Architectural Design  
+This is the base of system design. It describes the infrastructure, model, view, components and interaction.  
+### 2.	ERD Diagram  
+ERD means entity-relationship diagram. It is mainly used in designing the application’s database structure.  
+You can define multiple database schemas, add entities and add multiple attributes for each entity in the ERD diagram.
+### 3.	UML Diagram  
+UML stands for unified modeling language. It is used to prepare modeling software systems.  
+### 4.	Class Diagrams  
+Class diagrams are used to represent the classes, attributes, methods, and relationships between classes.  
+Basically, it provides an overview of the system’s data and functionality.
+### 5.	Sequence Diagrams  
+They represent the interaction between the various components of the system. They model the behavior of the system.
