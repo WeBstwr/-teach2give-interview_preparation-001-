@@ -34,11 +34,26 @@ It is measured in megabytes (MB) per second and it checks the capability of the 
 ### 3.	Consistency Patterns and Available Patterns  
 __Consistency:__ It ensures that all nodes in the system read the same data at a particular time.  
 __Availability:__ It ensures that each request receives a response either with fresh or old data.  
-__Consistency Patterns__
-•	Strong Consistency  
-•	Eventual Consistency  
-•	Weak Consistency  
-__Availability Patterns__  
-•	Load Balancing  
-•	Retry and Timeout strategies  
+__Consistency Patterns__ <ul>
+<li> Strong Consistency</li>  
+<li> Eventual Consistency</li>  
+<li> Weak Consistency</li>  </ul>   
+ 
+__Availability Patterns__<ul>  
+<li>Load Balancing</li>  
+<li>Retry and Timeout strategies</li> </ul>  
+
+## Advanced Concepts in System Design  
+### 1.	CDN  
+CDN stands for content delivery network. It is a distributed server network located at different geo-locations used to deliver content like images, various data, etc., from the server.  
+It delivers the resource faster, decreases latency (network delay) and improves the application’s performance.  
+### 2.	DNS  
+Stands for domain name system.  
+ It allows users to access the website and its resources using the domain name. It maps the unique domain name with a unique IP address.  
+### 3.	Caching
+It is a mechanism to serve resources faster. It is also called high-speed storage. Works between the web application and the source of the data.  
+__NB:__ Cookies are used to cache data in your browser.  
+### 4.	Proxies  
+It is also called the proxy server. It works between the client of the application and the internet.  
+ The proxy servers are used for the caching.
 
