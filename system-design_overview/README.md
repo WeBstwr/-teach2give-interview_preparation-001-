@@ -94,4 +94,38 @@ Various communication protocols include:
 <li>TCP/IP</li>
 <li>UDP</li>
 <li>WebSockets</li>
-</ul>
+</ul>  
+
+## Approaching System Design Interview Questions
+### Step-by-step Guide  
+
+### 1.	Requirement Clarification  
+Make sure you know the requirements before you prepare a system design for any software.  
+There can be two types of requirements:  
+<ul>
+<li>Function Requirements:  Requirements in the application with which the user interacts. Example, navigation, authentication, etc.</li>
+<li>Non-function requirements: Requirements to improve the application’s capabilities. Example, scalability, consistency, etc.</li>   
+</ul>  
+
+### 2.	Estimation of resources  
+Decide what kind of resources you should use to build the application.  
+Decide how much data you require to store in the database.  
+### 3.	System interface definition  
+A good example is defining the API endpoints and what to expect from each API endpoint.  
+### 4.	Defining Data model  
+Select a database for the application.  
+If it’s a social media application, you can easily use Graph databases to manage many-to-many relationships.  
+### 5.	High-level design  
+Build the high-level components by deciding how you will connect the components of the system with each other.  
+### 6.	Detailed design
+Improve the system design by analyzing the system to fulfill the non-functional requirements.  
+
+### 7.	Identifying and resolving bottlenecks
+Lastly, identify the bottlenecks in your system design and discuss the solutions to resolve them with the interviewer.  
+
+Sample System Design Interview Questions  
+<ol>
+<li>How would you design a URL Shortening service similar to TinyURL?</li>
+<li>How would you design a Web Crawler?</li>
+<li>How would you design Facebook and Instagram?</li>
+<li>How would you design the API rate limit?</li>
