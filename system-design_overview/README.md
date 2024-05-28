@@ -19,4 +19,26 @@ UML stands for unified modeling language. It is used to prepare modeling softwar
 Class diagrams are used to represent the classes, attributes, methods, and relationships between classes.  
 Basically, it provides an overview of the system’s data and functionality.
 ### 5.	Sequence Diagrams  
-They represent the interaction between the various components of the system. They model the behavior of the system.
+They represent the interaction between the various components of the system. They model the behavior of the system.  
+## Diving Deeper into System Design Concepts  
+### 1.	Performance vs Scalability  
+__Performance:__ If the loading time of your website is longer, traffic can decrease. Various mechanisms like caching can be used to increase the application’s performance and serve resources faster.  
+__Scalability:__ Ability to scale the application. 
+You can scale your application by distribution the load across multiple server’s capacity.  
+### 2.	Latency vs Throughput  
+They affect the efficiency of the system.  
+__Latency:__ This is a network delay that occurs dues to Geographical distance, transport protocol, or network infrastructure.  
+It is measured in Milliseconds.  
+__Throughput:__ Number of operations the system can handle in a particular time or the number of data passed via network request in a given time.  
+It is measured in megabytes (MB) per second and it checks the capability of the systems.  
+### 3.	Consistency Patterns and Available Patterns  
+__Consistency:__ It ensures that all nodes in the system read the same data at a particular time.  
+__Availability:__ It ensures that each request receives a response either with fresh or old data.  
+__Consistency Patterns__
+•	Strong Consistency  
+•	Eventual Consistency  
+•	Weak Consistency  
+__Availability Patterns__  
+•	Load Balancing  
+•	Retry and Timeout strategies  
+
