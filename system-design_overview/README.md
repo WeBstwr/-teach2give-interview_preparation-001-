@@ -1,3 +1,37 @@
+- [**Introduction to System Design**](#introduction-to-system-design)
+  - [Understanding System Design](#understanding-system-design)
+  - [What is the Need for the System Design?](#what-is-the-need-for-the-system-design)
+  - [Exploring Essential Design Methods in System Design](#exploring-essential-design-methods-in-system-design)
+    - [1. Architectural Design](#1-architectural-design)
+    - [2. ERD Diagram](#2-erd-diagram)
+    - [3. UML Diagram](#3-uml-diagram)
+    - [4. Class Diagrams](#4-class-diagrams)
+    - [5. Sequence Diagrams](#5-sequence-diagrams)
+  - [Diving Deeper into System Design Concepts](#diving-deeper-into-system-design-concepts)
+    - [1. Performance vs Scalability](#1-performance-vs-scalability)
+    - [2. Latency vs Throughput](#2-latency-vs-throughput)
+    - [3. Consistency Patterns and Available Patterns](#3-consistency-patterns-and-available-patterns)
+  - [Advanced Concepts in System Design](#advanced-concepts-in-system-design)
+    - [1. CDN](#1-cdn)
+    - [2. DNS](#2-dns)
+    - [3. Caching](#3-caching)
+    - [4. Proxies](#4-proxies)
+  - [Components of System Design](#components-of-system-design)
+    - [1. Microservices and Service Discovery](#1-microservices-and-service-discovery)
+    - [2. Database Systems: RDBMS and NoSQL](#2-database-systems-rdbms-and-nosql)
+    - [3. Communication Protocols](#3-communication-protocols)
+  - [Approaching System Design Interview Questions](#approaching-system-design-interview-questions)
+    - [Step-by-step Guide](#step-by-step-guide)
+    - [1. Requirement Clarification](#1-requirement-clarification)
+    - [2. Estimation of resources](#2-estimation-of-resources)
+    - [3. System interface definition](#3-system-interface-definition)
+    - [4. Defining Data model](#4-defining-data-model)
+    - [5. High-level design](#5-high-level-design)
+    - [6. Detailed design](#6-detailed-design)
+    - [7. Identifying and resolving bottlenecks](#7-identifying-and-resolving-bottlenecks)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # **Introduction to System Design**
 
 ## Understanding System Design
