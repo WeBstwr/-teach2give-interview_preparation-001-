@@ -55,5 +55,43 @@ It is a mechanism to serve resources faster. It is also called high-speed storag
 __NB:__ Cookies are used to cache data in your browser.  
 ### 4.	Proxies  
 It is also called the proxy server. It works between the client of the application and the internet.  
- The proxy servers are used for the caching.
+The proxy servers are used for the caching.  
+## Components of System Design  
+### 1.	Microservices and Service Discovery  
+The microservices break down complex applications into small services, such that each service works independently and accomplishes specific tasks.  
+The concepts below are related to the microservices.  
+<ul>
+<li><b>Service Identification:</b> Every microservice has a unique ID and name for its identification.</li>
+<li><b>Dynamic Service Discovery:</b> Each microservice can dynamically find other services located in the same network. This means that scaling and load balancing become easy.</li></ul>  
 
+### 2.	Database Systems: RDBMS and NoSQL
+__RDBMS__  
+Stands for relational database management system. The SQL databases are built on the top of the RDBMS. It makes it easier to access the data from the database and connect it with other data as they are stored in the table format.  
+Characteristics of the RDBMS database  
+<ul>
+<li>It stores the data in the table format.</li>
+<li>You can’t scale the RDBMS database horizontally, but you can scale it vertically.</li>
+<li>SQL is a query language for the RDBMS databases.</li>
+<li>Accessing data from the RDBMS database is slow.</li>
+</ul>  
+
+__NoSQL__  
+It means a non-SQL database. It stores data in the key-value pair instead of in table format. Use it when you are required to store unstructured data in the database.  
+Characteristics of the NoSQL database.  
+<ul>
+<li>It stores the data in the key-value pair format.</li>
+<li>It is horizontally scalable, as you can add new key-value pairs for new attributes.</li>
+<li>It is faster than RDBMS databases</li>
+<li>Each record can contain different key-value pairs.</li>
+<li>It supports frequent changes in the database.</li>
+</ul>  
+
+### 3.	Communication Protocols
+Protocols simply means rules and communication protocols refer to rules that communicate or exchange the data between systems. They can be server or client.  
+Various communication protocols include:  
+<ul>
+<li>HTTP/HTTPS</li>
+<li>TCP/IP</li>
+<li>UDP</li>
+<li>WebSockets</li>
+</ul>
